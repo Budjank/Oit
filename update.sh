@@ -1,7 +1,9 @@
 #!/usr/bin/bash
 cd ..
-rm -rf CBT-E
+rm -rf Oit
 cd
-git clone https://github.com/Budjank/CBT-E
-cd
-ls
+pkg install git python2
+git clone https://github.com/Budjank/Oit
+cd Oit
+cat README.txt
+python2 Oit.py
