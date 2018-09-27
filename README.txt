@@ -1,7 +1,13 @@
-# Oit
-Oit
+# Usage
 cd
-git clone https://github.com/Budjank/Oit.git
+pkg install git python2
+git clone https://github.com/Budjank/Oit
+ls
 cd Oit
-pip2 install -r requirement.txt
+cat README.txt
 python2 Oit.py
+# Update
+cd
+cd Oit
+bash update.sh
+
